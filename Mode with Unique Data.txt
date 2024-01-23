@@ -1,0 +1,8 @@
+import statistics
+
+data2 = [5, 10, 15, 20, 25]
+try:
+    mode_value = statistics.mode(data2)
+    print("Mode:", mode_value)
+except statistics.StatisticsError as e:
+    print("Mode:", e)
